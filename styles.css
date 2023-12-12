@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header {
+    width: 1920px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    background: #151515;
+}
+
+.main {
+    width: 1920px;
+    height: 996px;
+    flex-shrink: 0;
+    fill: rgba(46, 47, 66, 0.75);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.75),rgba(46, 47, 66, 0.75)),url('./images/people-office.jpg');
+}
+
+.logo1 {
+    width: 125px;
+    color: #FFF;
+    text-align: center;
+    font-family: Tenor Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.logo2 {
+    width: 125px;
+    color: #D6144E;
+    font-family: Meow Script;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-menu {
+    display: flex;
+    width: 1180px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 37px;
+}
+
+.catalog {
+    display: flex;
+    width: 437px;
+    align-items: center;
+    gap: 37px;
+}
+
+.catalog>li {
+    color: #FFF;
+    font-family: Tenor Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.catalog>li:hover {
+    color: #D6144E;                               /*  #EF5DA8;*/
+    font-family: Tenor Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.phone-icon {
+    width: 26px;
+    height: 26px;
+    color: #fff;
+    flex-shrink: 0;
+    /*margin-right: -26px;*/
+}
+
+.phone-number {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.call {
+    color: #FFF;
+    font-family: Tenor Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.call:hover {
+    color: #D6144E;
+}
+
+.content {
+    height: 996px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header {
+    width: 600px;
+    flex-shrink: 0;
+    margin: 50px 0 50px 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88.6%;
+}
+
+.content-text {
+    display: flex;
+    width: 750px;
+    height: 105px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 50px 0 50px 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.button {
+    display: flex;
+    width: 470px;
+    height: 127px;
+    padding: 19px 53px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #D6144E;
+    margin: 50px 0 50px 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
